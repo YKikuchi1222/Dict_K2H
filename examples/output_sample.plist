@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>phrase</key>
+		<string>α線</string>
+		<key>shortcut</key>
+		<string>あるふぁーせん</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>移動相</string>
+		<key>shortcut</key>
+		<string>いどうそう</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>黄色相</string>
+		<key>shortcut</key>
+		<string>おうしょくそう</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>試験管</string>
+		<key>shortcut</key>
+		<string>しけんかん</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>DNA</string>
+		<key>shortcut</key>
+		<string>でぃーえぬえー</string>
+	</dict>
+</array>
+</plist>

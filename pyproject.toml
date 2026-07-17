@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lsd-j2j-generator"
+version = "0.1.0"
+description = "Generate Apple text-replacement plist entries from a Japanese term TSV."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "jaconv==0.5.0",
+  "pykakasi==2.3.0",
+  "SudachiPy==0.6.11",
+  "SudachiDict-full==20260428",
+]
+
+[project.scripts]
+lsd-j2j = "generate_lsd_j2j:main"
+
+[tool.setuptools]
+py-modules = ["generate_lsd_j2j"]

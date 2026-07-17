@@ -1,0 +1,4 @@
+jaconv==0.5.0
+pykakasi==2.3.0
+SudachiPy==0.6.11
+SudachiDict-full==20260428

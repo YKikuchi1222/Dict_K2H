@@ -1,0 +1,10 @@
+.DS_Store
+.README.md.swp
+*.swp
+.venv/
+__pycache__/
+
+/LifeScienceDictionaries_J2E.csv
+/LSD_J2J.plist
+/LSD_J2J_readings.tsv
+/LSD_J2J_review.tsv
