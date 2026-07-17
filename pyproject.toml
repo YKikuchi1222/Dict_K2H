@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.scripts]
-dict-k2h = "generate_lsd_j2j:main"
+dict-k2h = "dict_k2h:main"
 
 [tool.setuptools]
-py-modules = ["generate_lsd_j2j"]
+py-modules = ["dict_k2h"]

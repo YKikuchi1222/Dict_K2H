@@ -14,7 +14,7 @@ Check the source database license before downloading, transforming, or redistrib
 
 ## What The Script Does
 
-`generate_lsd_j2j.py` reads a UTF-8 TSV file with a header and at least two columns:
+`dict_k2h.py` reads a UTF-8 TSV file with a header and at least two columns:
 
 - column 1: Japanese label or phrase
 - column 2: identifier, gloss, or source term
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```sh
-python generate_lsd_j2j.py \
+python dict_k2h.py \
   --csv examples/input_sample.tsv \
   --overrides-tsv examples/overrides_sample.tsv \
   --plist examples/output_sample.plist \
