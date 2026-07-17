@@ -1,6 +1,6 @@
-# LSD J2J Generator
+# Dict_K2H
 
-Generate an Apple text-replacement plist from a tab-separated Japanese term table.
+Generate an Apple text-replacement plist that maps Japanese dictionary terms to hiragana shortcuts.
 
 This repository is intended to publish the generator script only. Do not publish source dictionary data or generated full-size dictionary outputs unless you have confirmed that their license permits redistribution.
 
@@ -48,7 +48,7 @@ These tables are part of the script, not generated dictionary data.
 
 The first-pass reading assignment is the script's job. It uses SudachiPy, pykakasi, normalization, and local correction tables.
 
-Final correctness is the maintainer's responsibility. Specialized terms can still be wrong, so review `LSD_J2J_review.tsv` and add corrections through `--overrides-tsv` or `--seed-plist`.
+Final correctness is the maintainer's responsibility. Specialized terms can still be wrong, so review `Dict_K2H_review.tsv` and add corrections through `--overrides-tsv` or `--seed-plist`.
 
 ## Dependencies
 
@@ -57,7 +57,7 @@ Python 3.10 or newer is recommended. `uv` is the primary setup path for this rep
 Run with `uv`:
 
 ```sh
-uv run python generate_lsd_j2j.py \
+uv run dict-k2h \
   --csv examples/input_sample.tsv \
   --overrides-tsv examples/overrides_sample.tsv \
   --plist examples/output_sample.plist \
@@ -89,9 +89,9 @@ python generate_lsd_j2j.py \
 Default paths are:
 
 - input: `LifeScienceDictionaries_J2E.csv`
-- plist output: `LSD_J2J.plist`
-- audit TSV output: `LSD_J2J_readings.tsv`
-- review TSV output: `LSD_J2J_review.tsv`
+- plist output: `Dict_K2H.plist`
+- audit TSV output: `Dict_K2H_readings.tsv`
+- review TSV output: `Dict_K2H_review.tsv`
 
 The default data/output filenames are ignored by git to avoid accidental publication of source or generated dictionary data.
 

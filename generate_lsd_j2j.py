@@ -554,10 +554,10 @@ def write_tsv(path: Path, rows):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--csv", default="LifeScienceDictionaries_J2E.csv")
-    parser.add_argument("--plist", default="LSD_J2J.plist")
+    parser.add_argument("--plist", default="Dict_K2H.plist")
     parser.add_argument("--seed-plist", default="")
-    parser.add_argument("--readings-tsv", default="LSD_J2J_readings.tsv")
-    parser.add_argument("--review-tsv", default="LSD_J2J_review.tsv")
+    parser.add_argument("--readings-tsv", default="Dict_K2H_readings.tsv")
+    parser.add_argument("--review-tsv", default="Dict_K2H_review.tsv")
     parser.add_argument(
         "--overrides-tsv",
         "--llm-overrides",

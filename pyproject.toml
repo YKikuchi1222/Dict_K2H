@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lsd-j2j-generator"
+name = "dict-k2h"
 version = "0.1.0"
-description = "Generate Apple text-replacement plist entries from a Japanese term TSV."
+description = "Generate Apple text-replacement plist entries from Japanese dictionary terms to hiragana shortcuts."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.scripts]
-lsd-j2j = "generate_lsd_j2j:main"
+dict-k2h = "generate_lsd_j2j:main"
 
 [tool.setuptools]
 py-modules = ["generate_lsd_j2j"]
